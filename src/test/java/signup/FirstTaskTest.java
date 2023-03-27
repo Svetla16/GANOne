@@ -24,6 +24,7 @@ public class FirstTaskTest extends BaseTest {
         signUpPage.setFirstName("Svetla");
         signUpPage.setSurname("Dimitrova");
 
+
         //Tick the checkbox for Terms and Conditions
         WebElement checkBox = driver.findElement(By.xpath("/html/body/div[2]/div[3]/form/fieldset[5]/input[3]"));
         if (!checkBox.isSelected())
