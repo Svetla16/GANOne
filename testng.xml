@@ -3,7 +3,6 @@
 <suite name="Testing Registration">
     <test name="Regression">
         <classes>
-            <class name="base.BaseTest"/>
             <class name="signup.FirstTaskTest"/>
         </classes>
     </test> <!-- Test -->
